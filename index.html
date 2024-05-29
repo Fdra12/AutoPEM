@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PEM</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles_index.css">
+	<link rel="shortcut icon" href="favicon.ico">
+
+</head>
+
+<img src="pem_logo.png" alt="Logo area" class="logo">
+
+<body>
+
+<!-- <h1>PUESTA EN MARCHA...</h1> -->
+<form id="search-form">
+	<input type="text" id="search-input" name="search-input">
+	<button type="submit">Buscar</button>
+</form><br>
+<nav>
+	<ul class="main-menu">
+		<li><a href="#">CORE</a>
+			<ul class="sub-menu">
+				<li><a href="#" onclick="showPage('ip.html')" >Aprov Ip en Core</a></li>
+				<li><a href="#" onclick="showPage('vlan.html')" >Aprov Vlan Sw_iMap_GPon</a></li>
+				<li><a href="#" onclick="showPage('vpls.html')" >Aprov Vpls_PSW</a></li>
+			</ul>
+		</li>
+		<li><a href="#">OPERACION</a>
+			<ul class="sub-menu">
+				<li><a href="https://mediacommercepartner-my.sharepoint.com/:x:/g/personal/luna_villada_mc_net_co/EULQAaHD1f9LjEuBQJV2PskB0-rDrUYjcVAFWAMGfk9plw?e=Ucjob2" target="_blank">Backlog (Seguimiento)</a></li>
+				<li><a href="https://mediacommercepartner.sharepoint.com/:x:/s/FORCAPACIDADESITX/EUSPI-oxWW1ImcO5rgDR0h8BgBq4Upj2Y8zXl5OjdMqO7g?e=c5yOxH" target="_blank">Consolidado Capacidades</a></li>
+				<li><a href="https://mediacommercepartner.sharepoint.com/:x:/r/sites/PEM-PUESTAENMARCHA/_layouts/15/Doc.aspx?sourcedoc=%7B2E2B772A-04F6-4EEA-9B28-65EA1D4A4CF1%7D&file=Consolidado IPv4 Publico General (uso-disponibles).xlsx&action=default&mobileredirect=true" target="_blank">Consolidado IP Publico</a></li>
+				<li><a href="https://mediacommercepartner.sharepoint.com/:x:/r/sites/PEM-PUESTAENMARCHA/_layouts/15/Doc.aspx?sourcedoc=%7B19F0CDF0-6760-4FFD-BEC1-0018ADCC0FAD%7D&file=Consolidado_VLANs.xlsx&action=default&mobileredirect=true" target="_blank">Consolidado Vlans</a></li>
+				<li><a href="https://mediacommercepartner.sharepoint.com/:x:/s/PEM-PUESTAENMARCHA/ER9E5xQxwHRNlgO9slMdz9oB7TssBni4xY5YUbxNXFG81A?e=bsxC1X" target="_blank">Ips Hvlan Carrier</a></li>
+				<li><a href="https://mediacommercepartner.sharepoint.com/:x:/r/sites/PEM-PUESTAENMARCHA/_layouts/15/Doc.aspx?sourcedoc=%7B203A6201-328C-43C5-A6F0-7B6664E85700%7D&file=Direccionamiento_Ip_Privadas_MC.ods.xlsx&action=default&mobileredirect=true" target="_blank">Ips Privadas MC</a></li>
+				<li><a href="https://mediacommercepartner.sharepoint.com/:x:/r/sites/PEM-PUESTAENMARCHA/_layouts/15/Doc.aspx?sourcedoc=%7B97943022-C4F8-4D64-B6D4-4C97A5EA9435%7D&file=ASN-RD-RT.ods.xlsx&action=default&mobileredirect=true" target="_blank">ASN Privados</a></li>
+				<li><a href="https://mediacommercepartner.sharepoint.com/:f:/s/PEM-PUESTAENMARCHA/EvZr1VYYsJxHj5_uvwlZ75wBIPiqnSU0DDyWK9-Lu0wDJQ?e=bPhNo6" target="_blank">Guias y Datasheet</a></li>
+				<li><a href="https://mediacommercepartner.sharepoint.com/:f:/s/PEM-PUESTAENMARCHA/Eqrz66GI5klEktov1iCu4jAB7rq1Mod7_4ZfuRYsZNXenw?e=st1JDn" target="_blank">Scripts CPEs</a></li>
+				<li><a href="https://mediacommercepartner.sharepoint.com/:f:/s/PEM-PUESTAENMARCHA/Ev1FxewdOvNKhjxeVS-r9j8BvxvT6pzbBaCK3A_aPMFQMw?e=BjBE4k" target="_blank">Topologias ITX</a></li>
+				<li><a href="https://mediacommercepartner.sharepoint.com/:x:/r/sites/NASINTERCONEXION/Documentos%20compartidos/COMPARTIDO/ITXs%20Media%20Commerce%20-%20Carriers.xlsx?d=w575595e130564bbc887edc52b4858373&csf=1&web=1&e=upMdpc" target="_blank">ITXs Carrier (Capacidades)</a></li>
+				<li><a href="https://mediacommercepartner.sharepoint.com/:x:/s/PEM-PUESTAENMARCHA/ER118OXhZDRNpa25mBcXCZQBk9RbiWPESHv1m3BuvuXP_g?e=h7SUdu" target="_blank">Homologación Equipos MC</a></li>
+				<li><a href="https://mediacommercepartner-my.sharepoint.com/:x:/r/personal/jorge_molina_mc_net_co/Documents/1.%20LIDER%20DE%20SOPORTE%20REGIONAL/SOPORTE%20REGIONAL/Analistas_Soporte_Regional.xlsx?d=wf4c54f5766744d1a8c165445afe6acdd&csf=1&web=1&e=z9yBXX" target="_blank">Distribución Analistas Soporte</a></li>
+				<li><a href="https://milacnic.lacnic.net/lacnic/login" target="_blank">LACNIC</a></li>
+	</ul>
+				</li>
+				<li><a href="#">IMPLEMENTADORES</a>
+					<ul class="sub-menu">
+						<li><a href="#">Centro</a>
+							<ul class="sub-menu2">
+								<li><a href="" target="_blank">Pendientes</a></li>
+								<li><a href="https://mediacommercepartner.sharepoint.com/:x:/r/sites/PEM-PUESTAENMARCHA/_layouts/15/Doc.aspx?sourcedoc=%7BF41AD11A-B225-4CDE-963B-8EEB91EB8D79%7D&file=SEGUIMIENTO%20CONECTIVIDAD%20Final%20FULL.xlsx&action=default&mobileredirect=true" target="_blank">Proactivos</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Costa-Carrier</a>
+							<ul class="sub-menu2">
+								<li><a href="https://mediacommercepartner.sharepoint.com/:x:/r/sites/PEM-PUESTAENMARCHA/_layouts/15/Doc.aspx?sourcedoc=%7B7F90271C-A801-42A0-84C4-2FB446B8D4F0%7D&file=seguimiento%20OT%20(version%201).xlsx&action=default&mobileredirect=true" target="_blank">Pendientes</a></li>
+								<li><a href="https://mediacommercepartner.sharepoint.com/:x:/r/sites/PEM-PUESTAENMARCHA/_layouts/15/Doc.aspx?sourcedoc=%7B259A27D2-A9F5-4B41-AF33-2C8854238B96%7D&file=CONTROL%20OTS.xlsx&action=default&mobileredirect=true" target="_blank">Proactivos</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Especiales 1-Centro</a>
+							<ul class="sub-menu2">
+								<li><a href="" target="_blank">Pendientes</a></li>
+								<li><a href="" target="_blank">Proactivos</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Especiales 2</a>
+							<ul class="sub-menu2">
+								<li><a href="" target="_blank">Pendientes</a></li>
+								<li><a href="" target="_blank">Proactivos</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Occidente</a>
+							<ul class="sub-menu2">
+								<li><a href="https://mediacommercepartner.sharepoint.com/:x:/s/PEM-PUESTAENMARCHA/EXbcXtUOvZRDowPviryLLC0BXpSnWVwMbXqjYRvnU0sP2w?e=xzgJQ2" target="_blank">Pendientes</a></li>
+								<li><a href="https://mediacommercepartner.sharepoint.com/:x:/s/PEM-PUESTAENMARCHA/Eal2sY3W5-VKmTGcQ-W31w0BNNUeyz-oIsUGSCTbQlbfFw?e=A8f9oI" target="_blank">Proactivos</a></li>
+							</ul>
+						</li>
+						<li><a href="https://mediacommercepartner.sharepoint.com/:x:/s/PEM-PUESTAENMARCHA/EbtJwT0C0u1OgeFHh-oYe1wBWRmjUArxXYg0McsJWMmLuQ?e=7vBovV" target="_blank">Distribución Implementadores</a>
+						</li>
+						<li><a href="https://mediacommercepartner.sharepoint.com/:x:/s/PEM-PUESTAENMARCHA/EfrxPO6tkdVPrz9jd1i3om0Boy75iiYatgBcTJw8DPKUjg?e=yd4cDF" target="_blank">Info Clientes</a>
+						</li>
+					</ul>
+				</li>
+			</li>
+			<li><a href="#">HERRAMIENTAS DE RED</a>
+				<ul class="sub-menu">
+					<li><a href="#" onclick="showPage('bw.html')" >Calculadora Bw Cisco</a></li>
+					<li><a href="https://www.aprendaredes.com/cgi-bin/ipcalc/ipcalc_cgi1" target="_blank" >Calculadora IPv4</a></li>
+					<li><a href="http://www.gestioip.net/cgi-bin/subnet_calculator.cgi" target="_blank" >Calculadora IPv6</a></li>
+					<li><a href="http://mxtoolbox.com/" target="_blank" >MX ToolBox</a></li>
+					<li><a href="https://lg.he.net/" target="_blank" >Looking Glass</a></li>
+					<li><a href="https://www.nperf.com/es/" target="_blank" >NPerf (SpeedTest)</a></li>
+					<li><a href="https://macvendors.com/" target="_blank" >Mac Vendor</a></li>
+					<li><a href="https://macvendors.com/" target="_blank" >Mac Finder</a></li>
+					<li><a href="https://query.milacnic.lacnic.net/home"  target="_blank">Whois LACNIC</a></li>
+				</ul>
+			</li>
+			<li><a href="#">ADMINISTRATIVO</a>
+				<ul class="sub-menu">
+					<li><a href="https://forms.office.com/pages/responsepage.aspx?id=w3kvjecDyU2S0x5tvLt5GitBIEOmIZxNqXC6FuPrGkZURFYwSVdCMTZQT0lCQ0FMTzYxTFM0NFNXTSQlQCN0PWcu" target="_blank">Reporte HE</a></li>
+					<li><a href="https://mediacommercepartner.sharepoint.com/:x:/s/PEM-PUESTAENMARCHA/EarkuJqNmHFKlwuvBQB8f9YBmLvcsF8Cs4q0TIvWpv4qag" target="_blank">Reporte Fallas</a></li>
+					<li><a href="https://mediacommercepartner.sharepoint.com/:x:/s/PEM-PUESTAENMARCHA/Ecfpa2IoeNtOsLdYGkAJoZcBEiX2AfeFIjRp3CVM0xLtmg?e=IvEJ93" target="_blank">BD Conocimiento Operación</a></li>
+					<li><a href="https://cun.mc.net.co/midasoft/index.php/reportes/reporte1" target="_blank">Directorio Empleados MC</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav><br>
+	<form>
+		<button class="reset-button" onclick="resetFrame()">Reiniciar Scripts</button>
+	</form>
+	<iframe id="content-frame"></iframe>
+</body>
+<script>
+<!--  window.onload = function() {
+<!--    alert("¡Bienvenido/a a mi sitio web!");
+<!--  }; 
+const searchForm = document.querySelector('form');
+const searchInput = document.querySelector('input');
+const listItems = document.querySelectorAll('li');
+searchForm.addEventListener('submit', (event) => {
+	event.preventDefault();
+	  const searchTerm = searchInput.value.toLowerCase();
+	  listItems.forEach((item) => {
+		if (item.textContent.toLowerCase().includes(searchTerm)) {
+		  item.style.display = 'list-item';
+		} else {
+		  item.style.display = 'none';
+		}
+	  });
+	});
+	function showPage(page) {
+		document.getElementById('content-frame').src = page;
+			resetMainMenu();
+	}
+	function resetFrame() {
+		document.getElementById('content-frame').src = '';
+			resetMainMenu();
+	}
+	function resetMainMenu() {
+	  listItems.forEach((item) => {
+		item.style.display = 'list-item';
+	  });
+	}
+</script>
+</html>
